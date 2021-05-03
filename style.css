@@ -1,0 +1,39 @@
+
+h1 {
+    color: white;
+padding: 50px;
+font-size: 50px;
+}
+    
+body{
+    background-color:white
+}
+
+.header{
+    padding: 130px;
+    background-image: url('pg.png') ;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.grid{
+    padding: 130px;
+    background-image: url('bc.jpg');
+    background-size: cover;
+    display: flex;
+    /*align-content:stretch; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+    background-image: url('pg.png');
+    display: flex;
+    /*align-content:stretch; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
